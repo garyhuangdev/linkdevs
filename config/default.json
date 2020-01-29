@@ -1,3 +1,6 @@
 {
-  "mongoURI": "mongodb+srv://garyhuang:cccpp9999@linkdevs-egdni.mongodb.net/test?reeryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://garyhuang:cccpp9999@linkdevs-egdni.mongodb.net/test?reeryWrites=true&w=majority",
+  "jwtSecret": "garysecrettoken",
+  "githubClientId": "08b9955c3ec5e3cebdab",
+  "githubSecret": "aad093475995a49e043336a587a65039aa150d1c"
 }
