@@ -69,10 +69,12 @@ export default function(state = initialState, action) {
         loading: false
       };
     case LOGOUT:
+      localStorage.removeItem('token');
       return {
         ...state,
         token: null,
-        isAuthenticated: false
+        isAuthenticated: false,
+        loading: false
       };
     case ACCOUNT_DELETED:
       localStorage.removeItem('token');

@@ -38,19 +38,19 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <ul>
       <li>
         <Link to="/profiles">
-          <i class="fas fa-users"></i>{' '}
+          <i className="fas fa-users"></i>{' '}
           <span className="hide-sm">Developers</span>
         </Link>
       </li>
       <li>
         <Link to="/register">
-          <i class="fas fa-user-alt"></i>{' '}
+          <i className="fas fa-user-alt"></i>{' '}
           <span className="hide-sm">Register</span>
         </Link>
       </li>
       <li>
         <Link to="/login">
-          <i class="fas fa-sign-in-alt"></i>{' '}
+          <i className="fas fa-sign-in-alt"></i>{' '}
           <span className="hide-sm">Login</span>
         </Link>
       </li>
